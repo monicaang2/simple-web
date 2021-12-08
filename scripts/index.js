@@ -6,7 +6,7 @@ function postComment(event){
 
     var img = document.createElement("img");
     img.className = "avatar";
-    img.src = "/blogger-livecode/images/AvatarMonica.png";
+    img.src = "/simple-web/images/AvatarMonica.png";
     li.appendChild(img);
 
     var KomenDong = document.getElementById("comment").value;
